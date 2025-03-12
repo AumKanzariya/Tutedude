@@ -1,0 +1,5 @@
+{
+    "livePreview.defaultPreviewPath": "/indext.html",
+    "livePreview.openPreviewTarget": "Embedded Preview",
+    "livePreview.customExternalBrowser": "Chrome"
+}

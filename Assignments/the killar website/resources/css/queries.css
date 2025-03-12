@@ -1,0 +1,553 @@
+/* big tablet from 1200px  */
+@media only screen and (max-width: 1200px) {
+    .phone {
+        width: 150px;
+    }
+    .logo{
+        height: 80px;
+    }
+
+    .btn-app img {
+        height: 40px;
+        margin-left: -10px;
+    }
+
+    blockquote {
+        margin-top: 35px;
+    }
+
+    .plan-box {
+        margin-top: 35px;
+    }
+
+    .box img {
+        margin-top: 35px;
+    }
+        .row h2::after {
+            width: 350px;
+        }
+
+}
+  /* form  */
+
+
+
+
+  input[type=checkbox] {
+      margin: 0px 0px 0px 0;
+  }
+
+
+  .form-email {
+      padding-top: 55px;
+  }
+
+  .form-ref {
+      padding-top: 55px;
+  }
+
+
+  .form select {
+      margin-left: 7px;
+
+  }
+
+  .form-checkbox {
+      padding-top: 55px;
+  }
+
+  .form-comment {
+      padding-top: 55px;
+  }
+
+
+
+
+/* small big tablet from 768px to 1023p  */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 80% !important;
+    }
+
+
+    section {
+        padding-top: 15px;
+        width: 100%;
+    }
+
+    .logo{
+        height: 70px;
+    }
+
+    .box p {
+        font-size: 80% !important;
+    }
+
+    .row h2::after {
+        width: 350px;
+    }
+
+    .form .row {
+        margin-top: 35px;
+    }
+
+    .form {
+        width: 80%;
+        height: 100%;
+    }
+
+    .form select {
+        margin-left: 10px;
+    }
+
+    .btn-app img {
+        height: 35px;
+        margin-left: -10px;
+    }
+
+    
+
+    /* steps  */
+    .steps {
+        padding-top: 10px;
+    }
+
+.phone {
+    width: 130px;
+}
+
+    .row1{
+        margin-top: 0px;
+    }
+}
+
+ /* cities  */
+
+
+
+ /* testimonial  */
+
+
+
+ /* plan  */
+
+
+
+    /* form  */
+
+
+form select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid var(--darkwhite);
+}
+
+
+
+/*  481px to 767px  */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 60% !important;
+    }
+
+    .box p {
+        font-size: 70% !important;
+    }
+
+    .main-nav li {
+        margin-left: 5px;
+    }
+
+    section{
+        padding-top: 20px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .headrow {
+        padding: 5px 20px;
+    }
+
+    .row1 p {
+        font-size: 70% !important;
+    }
+
+    /* meal  */
+
+
+
+    /* steps  */
+    .steps {
+        padding: 5px 20%;
+    }
+
+        .row h2::after {
+            width: 75%;
+        }
+
+    .phone {
+        border-radius: 5px;
+        width: 50%;
+    }
+
+    .btn-app img {
+        height: 20px;
+        margin-left: -10px;
+    }
+
+    .steps-box:first-child {
+        margin-top: 20px;
+    }
+
+    .works-step div {
+
+        border: 2px solid var(--orangecolor);
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        padding: 2px 5px;
+        font-size: 120%;
+    }
+
+    .works-step {
+        gap: 10px;
+    }
+
+    .works-step p {
+        font-size: 70%;
+        margin-right: 5px;
+        margin-top: 3px;
+    }
+
+    .steps-box:last-child {
+        padding-left: 0%;
+        margin-top: 0px;
+    }
+
+    .city-feature a:link,
+    .city-feature a:visited {
+        padding-bottom: 1px;
+    }
+
+    .cities h3 {
+        padding: 0 0 10px 0;
+    }
+
+    .city-user {
+        padding-top: 10px;
+    }
+
+    .city-feature {
+        padding: 0px 0 2px 0
+    }
+
+
+    .city-feature svg {
+        margin-top: -4px;
+        margin-right: 15px;
+        color: orange;
+        scale: 90%;
+
+    }
+
+
+
+
+
+    /* form  */
+
+
+
+
+    .form {
+        width: 90%;
+        height: 100%;
+        padding: 5px 10%;
+    }
+
+    footer li {
+        margin-right: 15px;
+        display: block;
+        font-size: 18px !important;
+    }
+
+    footer li svg {
+        scale: 70%;
+    }
+
+
+}
+
+/*  from 0 to 480p  */
+@media only screen and (max-width: 584px) {
+    body {
+        font-size: 8px !important;
+    }
+
+    .logo {
+        height: 40px;
+
+    }
+
+    section {
+        padding-top: 10px;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        max-width: 480px;
+        top: 40%;
+        word-spacing: 0px;
+        letter-spacing: 1px;
+        padding: 10px 25px;
+    }
+
+    .btn {
+        padding: 7px 20px;
+    }
+
+    .box h3 {
+        font-size: 10px;
+    }
+
+    .row h2::after {
+        width: 250px;
+        border-bottom: 1px solid var(--darkorangecolor);
+        margin-top: 10px;
+    }
+
+    .row1 p {
+        font-size: 10px !important;
+    }
+
+    .box p {
+        font-size: 8px !important;
+    }
+
+    .icon-ion {
+        font-size: 25px;
+        color: var(--orangecolor);
+        margin-bottom: 10px;
+    }
+
+
+    /* steps  */
+
+  
+
+    .works-step {
+        margin: 10px 0;
+
+    }
+
+    /* meal  */
+
+
+
+
+
+
+
+    /* steps  */
+
+        .row h2::after {
+            width: 75%;
+        }
+
+    .phone {
+        border-radius: 5px;
+        width: 35px;
+    }
+
+    .works-step {
+        margin: 5px 0;
+    }
+
+    .works-step div {
+        border-radius: 50%;
+        text-align: center;
+        padding: 1px 3px;
+        font-size: 100%;
+    }
+
+
+    .steps-box:first-child {
+        margin-top: 10px;
+    }
+
+    .btn-app img {
+        height: 15px;
+        margin-left: -10px;
+    }
+
+    .steps-box:last-child {
+        font-size: 8px !important;
+    }
+
+    /* cities  */
+
+
+
+    .box img {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .city-feature svg {
+        margin-top: -9px;
+        margin-right: 5px;
+
+        scale: 60%;
+    }
+
+    /* testimonial  */
+
+
+    .testimonial h2 {
+        color: rgb(222, 222, 222);
+    }
+
+    blockquote {
+        margin-top: 15px;
+    }
+
+
+    /* plan  */
+   
+
+    .plan-box {
+        margin-top: 15px;
+    }
+
+    .plan-box svg {
+        height: 20px;
+        margin-right: 5px;
+        color: var(--orangecolor);
+    }
+
+
+    /* form  */
+
+
+    .form .row {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    input[type=checkbox] {
+        margin: 0px 0px 0px 0;
+    }
+
+
+    .form-email {
+        padding-top: 35px;
+    }
+
+    .form-ref {
+        padding-top: 35px;
+    }
+
+
+    .form select {
+        margin-left: -7px;
+        padding: 3px;
+    }
+
+    .form-checkbox {
+        padding-top: 35px;
+    }
+
+    .form-comment {
+        padding-top: 35px;
+    }
+
+    /* footer  */
+    .copyright {
+        color: var(--htextcolor);
+        text-align: center;
+        font-size: 100%;
+        padding-top: 20px;
+    }
+
+    footer li {
+        margin-right: 5px;
+        display: block;
+        font-size: 12px !important;
+        line-height: 25px;
+    }
+
+    footer li svg {
+        scale: 40%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .box h3 {
+            font-size: 14px;
+            padding: 10px 0;
+        }
+
+.plan-box{
+    font-size: 14px;
+    text-align: center;
+}
+
+.plan-box h3{
+    padding: 10px 0;
+}
+
+.plan-box .btn{
+    font-size: 14;
+}
+
+.form{
+    position: relative;
+
+}
+
+input[type=text],
+input[type=email] {
+    margin: 7px 0;
+}
+
+form select {
+
+    margin-left: -7px;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.form-checkbox {
+    padding-top: 35px;
+}
+
+.form-comment {
+    padding-top: 35px;
+}
+
+.form-ref {
+    padding-top: 55px;
+}
+
+        .form-comment {
+            padding-top: 35px;
+        }
+
+
+.sendme{
+    text-align: center;
+    
+}
+
+.row .btn{
+    font-size: 14px;
+}
+
+
+}

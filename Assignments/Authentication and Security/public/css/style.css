@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+
+form {
+    padding: 20px;
+}
+
+button {
+    position: relative;
+    float: left;
+    margin: 10px auto;
+}
+
+.bi-key-fill {
+    display: block;
+    font-size: 71px;
+    transform: rotate(38deg);
+}

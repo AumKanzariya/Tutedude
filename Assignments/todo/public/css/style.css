@@ -1,0 +1,82 @@
+/* Apply gradient to the entire page */
+body {
+    height: 100vh;
+    /* Full viewport height */
+    background: linear-gradient(to right top, #4e16e6 30%, #feb47b 50%);
+    /* Smooth gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Box styling */
+.box {
+    margin-top: 20px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* Glassmorphism effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.box2{
+    display: flex;
+        vertical-align: middle;
+        gap: 20px;
+}
+
+.task-checkbox:checked+.task-text {
+    text-decoration: line-through;
+    color: gray;
+    transition: text-decoration 0.3s ease, color 0.3s ease;
+}
+
+/* Styling for task text */
+.task-text {
+    font-size: 18px;
+    cursor: pointer;
+    /* Make it clickable */
+} /* Make it clickable */
+
+/* Heading style */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Input field */
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+/* Button style */
+button {
+    background: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    
+}
+
+button:hover {
+    background: #e36a50;
+}
